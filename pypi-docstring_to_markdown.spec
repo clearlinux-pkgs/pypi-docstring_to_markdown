@@ -5,7 +5,7 @@
 #
 Name     : pypi-docstring_to_markdown
 Version  : 0.13
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/2b/11/4be3230b6ebaeb31b2406876367243780d10a28da3a881a45a960ed4469b/docstring-to-markdown-0.13.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2b/11/4be3230b6ebaeb31b2406876367243780d10a28da3a881a45a960ed4469b/docstring-to-markdown-0.13.tar.gz
 Summary  : On the fly conversion of Python docstrings to markdown
