@@ -6,10 +6,10 @@
 # autospec commit: da8b975
 #
 Name     : pypi-docstring_to_markdown
-Version  : 0.14
-Release  : 9
-URL      : https://files.pythonhosted.org/packages/e1/84/12e7183fbb8772e5a00ebfd48552ccbd4820621b1c2e624cc1a149297597/docstring-to-markdown-0.14.tar.gz
-Source0  : https://files.pythonhosted.org/packages/e1/84/12e7183fbb8772e5a00ebfd48552ccbd4820621b1c2e624cc1a149297597/docstring-to-markdown-0.14.tar.gz
+Version  : 0.15
+Release  : 10
+URL      : https://files.pythonhosted.org/packages/7a/ad/6a66abd14676619bd56f6b924c96321a2e2d7d86558841d94a30023eec53/docstring-to-markdown-0.15.tar.gz
+Source0  : https://files.pythonhosted.org/packages/7a/ad/6a66abd14676619bd56f6b924c96321a2e2d7d86558841d94a30023eec53/docstring-to-markdown-0.15.tar.gz
 Summary  : On the fly conversion of Python docstrings to markdown
 Group    : Development/Tools
 License  : LGPL-2.1 LGPL-2.1+
@@ -55,10 +55,10 @@ python3 components for the pypi-docstring_to_markdown package.
 
 
 %prep
-%setup -q -n docstring-to-markdown-0.14
-cd %{_builddir}/docstring-to-markdown-0.14
+%setup -q -n docstring-to-markdown-0.15
+cd %{_builddir}/docstring-to-markdown-0.15
 pushd ..
-cp -a docstring-to-markdown-0.14 buildavx2
+cp -a docstring-to-markdown-0.15 buildavx2
 popd
 
 %build
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1708441686
+export SOURCE_DATE_EPOCH=1708528997
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
