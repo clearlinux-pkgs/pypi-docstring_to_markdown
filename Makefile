@@ -1,5 +1,5 @@
 PKG_NAME := pypi-docstring_to_markdown
-URL = https://files.pythonhosted.org/packages/58/1f/16e6d4026e94224d662dcd344dcd3563bc8a74a272f2c27b325793cad5fc/docstring_to_markdown-0.16.tar.gz
+URL = https://files.pythonhosted.org/packages/52/d8/8abe80d62c5dce1075578031bcfde07e735bcf0afe2886dd48b470162ab4/docstring_to_markdown-0.17.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
